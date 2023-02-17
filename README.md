@@ -6,7 +6,12 @@ This project is a resource to help learners understand AWS values, philosophy, r
 
 ![Resource Overview](/img/app-resources.jpg)
 
-The Flashcard application invokes an HTTP GET method to request flashcard data (questions/answers). You can setup your enviornment and access the the public API by setting up the following:
+The Flashcard application accesses the Lambda resource through the HTTP client, which processes events from the API Gateway HTTP API. You can setup your enviornment and access the the public API by setting up the following:
 
+* Clone the project by forking it to your local machine
+`git clone https://github.com/j-mensch/aws-flashcard-app`
+* Install dependencies by running the following command
+`npm install`
+* Verify the node modules have installed correctly by checking the **package.json** file
 * Create a web server using the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) addon in VS Code
-* Initialize your project by running the necessary commands to install the node.js packages
+* Launch the web application by pressing **F1** and clicking on **Live Server: Open with Live Server**
