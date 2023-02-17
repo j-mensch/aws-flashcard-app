@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Flashcard App</title>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1315.0.min.js"></script>
+</head>
+<body onload="getRandomFlashcard()">
+    <div class="title">
+        <h1>AWS Flashcard App</h1>
+    </div>
+
+    <div class="q-title">
+        Question :
+    </div>
+    <div class="question">
+        <h3>Question</h3>
+    </div>
+
+    <div class="a-title">
+        Answer :
+    </div>
+    <div class="answer">
+        <h3>Answer</h3>
+    </div>
+
+    <div class="button">
+        <button class="check">Check</button>
+        <button class="next">Next</button>
+    </div>
+
+    <script 
+        src="../src/index.js"
+    ></script>
+</body>
+</html>

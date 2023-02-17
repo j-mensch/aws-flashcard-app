@@ -1,0 +1,26 @@
+{
+  "name": "aws-sdk",
+  "version": "1.0.0",
+  "description": "sdk to support api integration with aws resources",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1315.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "jmensch",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}

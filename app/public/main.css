@@ -1,0 +1,55 @@
+/* styling for index.html */
+
+.title {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+}
+
+.q-title {
+    font-family: 'Ubuntu', sons-serif;
+    text-align: center;
+    bottom: 0;
+    font-size: 18px;
+}
+
+.question {
+    font-family: 'Ubuntu', sons-serif;
+    border: solid 5px black;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a-title {
+    font-family: 'Ubuntu', sons-serif;
+    text-align: center;
+    bottom: 0;
+    font-size: 18px;
+}
+
+.answer {
+    font-family: 'Ubuntu', sons-serif;
+    border: solid 5px black;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
